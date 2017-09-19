@@ -1,6 +1,7 @@
+import java.io.IOException;
 
 public class DirectorGeneral {
-    public static void main(String[] args) {
+    public static void main(String[] args) throws IOException {
 
         System.out.println("ГД: Я позвал директора по мясу Марата");
         MeatDirector marat = new MeatDirector();

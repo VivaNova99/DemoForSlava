@@ -1,7 +1,8 @@
+import java.io.IOException;
 
 public class MeatDirector {
 
-    void doMeatPie(){
+    void doMeatPie() throws IOException {
         System.out.println("ДМ: Я позвал закупщика мяса Кирилла");
         MeatBuyer kirill = new MeatBuyer();
         System.out.println("ДМ: И сказал ему купить мяса");
